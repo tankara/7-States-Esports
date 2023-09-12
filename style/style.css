@@ -1,0 +1,113 @@
+body{
+
+    background-color: black;
+    color: white;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.nav-bar{
+
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 1920px;
+    justify-content: start;
+
+}
+
+.navbar-links{
+
+    list-style: none;
+    display: flex;
+    padding-left: 150px;
+
+}
+
+.logo{
+
+    text-decoration: none;
+    list-style: none;
+    font-family: mainFont;
+    width: 100px;
+    padding-left: 50px;
+
+}
+
+.nav-logo{
+
+    padding: 5px;
+    font-size: 50px;
+
+}
+
+.nav-elements{
+
+    list-style: none;
+    padding-right: 15px;
+    text-decoration: none;
+    font-family: mainFont;
+    color: white;
+    font-size: 25px;
+}
+
+.nav-elements:hover{
+
+    text-shadow: 0px 0px 20px rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    padding-left:15px;
+}
+
+.welcome{
+
+    background-image: url(/src/img/bg1.jpg);
+    background-size: 100%;
+    height: 900px;
+    
+}
+
+.motto{
+
+    font-family:mainFont;
+    margin: 0px;
+    padding-left:100px;
+    padding-top: 350px;
+    font-size: 70px;
+
+}
+
+.welcome-p{
+
+    padding-left: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+hr{
+
+    border: 1px solid rgba(255, 255, 255, 0.285);
+    margin-top: 150px;
+}
+
+.sponsor-line{
+
+    font-size: 20px;
+    font-family: mainFont;
+    padding-left: 25px;
+    text-decoration: none;
+    list-style: none;
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sponsor-logos{
+    width:150px
+}
+
+@font-face {
+    font-family: mainFont;
+    src: url(/src/fonts/super_Squad.ttf);
+}
